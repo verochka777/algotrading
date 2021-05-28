@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <title>Document</title>
 
 </head>
@@ -22,7 +25,7 @@
                 <a href="" class="nav__menu_text">аналитика</a>
                 <a href="" class="nav__menu_text">о проекте</a>
             </div>
-            <!-- /.nav__menu -->
+            <!-- /.header__nav -->
             <div class="phone"> 
                 <a href="tel:84959999999" class="phone header__phone">8 (495) 
                     <span class="phone-selection">999-99-99</span>
@@ -35,7 +38,6 @@
     </header>
     <!-- /.header -->
     <section class="hero">
-        <div class="hero__info">
             <div class="container">
                 <div class="hero_head">
                     <h1 class="hero__tittle">
@@ -46,8 +48,8 @@
                 </div>
                 <div class="hero__block">
                     <div class="hero__buttons">
-                        <button class="button button__one">начать обучение</button>
-                        <button class="button button_two">узнать подробнее</button>
+                        <button class="button button__one hero__button">начать обучение</button>
+                        <button class="button button_two hero__button">узнать подробнее</button>
                     </div>
                     <!-- /.hero__buttons -->
                     <div class="hero__block_text">
@@ -60,8 +62,6 @@
                 </div>
                 <!-- /.hero__block -->
             </div>
-        </div>
-        <!-- /.hero__info -->
     </section>
     <!-- /.hero -->
     <section class="advantages">
@@ -86,7 +86,7 @@
                 <div class="advantages__cards_two">
                     <div class="advantages__card">
                         <div class="advantages__card_tittle">
-                            Глубокий анализ и скорость
+                            <strong>Глубокий</strong> анализ и скорость
                         </div>
                         <p class="advantages__text">
                             Полноценный анализ финансовых инструментов по разработанным математическим алгоритмам за доли секунд
@@ -97,7 +97,7 @@
                 <div class="advantages__cards_two">
                     <div class="advantages__card">
                         <div class="advantages__card_tittle">
-                            Максимальный инструментарий
+                            <strong>Максимальный</strong> инструментарий
                         </div>
                         <p class="advantages__text">
                             Отслеживайте тысячи финансовых инструментов каждую секунду с минимальными рисками
@@ -108,8 +108,199 @@
             </div>
             <!-- /.advantages__cards -->
         </div>
+        <section class="section_plan">
+          <div class="plan">
+            <div class="container">
+                <h2 class="plan__title"><span class="plan__bold">Всё</span> очень просто</h2>
+                <p class="plan__info">Никаких лишних движений во время обучения.
+                    Мы с Вами будем чётко следовать
+                    по разработанной нами карте обучения.</p>
+                <img src="img/white.png" alt="#" class="plan__img">
+                <p class="plan__part">Создание робота</p>
+                <img src="img/arrow.png" alt="#" class="plan__img">
+                <p class="plan__part">Внедрение</p>
+                <img src="img/arrow.png" alt="#" class="plan__img">
+                <p class="plan__part">Оптимизация</p>
+                <img src="img/arrow.png" alt="#" class="plan__img">
+                <p class="plan__part">Запуск</p>
+                <img src="img/arrow.png" alt="#" class="plan__img">
+                <p class="plan__part">Прибыль</p>
+                <div class="plan__video">
+                    <img src="img/play.png" alt="#" class="plan__video__play">
+                </div>
+                <!-- /.robor__video -->
+                <div class="plan__block">
+                    <h3 class="plan__block__title">Реальный пример работы алгоритма</h3>
+                    <p class="plan__text">Меня с детства интересовал анализ процессов, которые происходят в мире финансов. Именно этот интерес меня подтолкнул получить высшее образование в сфере экономико-математического моделирования </p>
+                    <button class="plan__button">Приступить к созданию своего доходного робота</button>
+                </div>
+                <!-- /.plan__block -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.plan -->
+        </section>
+        <!-- /.section_plan -->
     </section>
+    <div class="section__training">
+      <div class="container">
+        <h2 class="training__title">Формат обучения</h2>
+        <div class="training__block">
+          <div class="training__card">
+              <img src="img/disk.png" alt="" class="training__icon">
+              <h3 class="training__card__title">Видеолекции</h3>
+              <p class="training__card__text">Смотрите лекции on-line
+                  от лучших преподавателей
+                  алготрейдинга</p>
+          </div>
+          <div class="training__card">
+              <img src="img/mark.png" alt="" class="training__icon">
+              <h3 class="training__card__title">Практическая часть</h3>
+              <p class="training__card__text">Выполняйте домашние задания
+                  и проверяйте полученные знания
+                  с помощью различных интерактивных тестов</p>
+          </div>
+          <div class="training__card">
+              <img src="img/chat.png" alt="" class="training__icon">
+              <h3 class="training__card__title">Форум</h3>
+              <p class="training__card__text">Обговаривайте вопросы, которые Вас интересуют, напрямую
+                  с преподавателями и с другими студентами на закрытом форуме</p>
+          </div>
+          <div class="training__card">
+              <img src="img/headphones.png" alt="" class="training__icon">
+              <h3 class="format__card__title">On-line вебинары</h3>
+              <p class="training__card__text">Учувствуйте в мастер-классах наших преподавателей в режиме реально времени, и тут же обсуждайте с ними интересующие Вас вопросы</p>
+          </div>
+      </div>
+      <!-- /.format__block -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section__training -->
     <!-- /.advantages -->
-    sec
+    <section class="price">
+        <div class="container">
+          <div class="price__heading">
+            <h2 class="section__title price__title"><span>Сколько</span> стоит обучение?</h2>
+            <span class="section__info price__info">Станьте частью алготрейдинга прямо сейчас и всего за месяц прямо на сессиях создайте своего эффективного торгового робота с нуля!</span>
+          </div>
+            <div class="price__cards">
+              <div class="price__card">
+                <h3 class="price__card__title">Gold</h3>
+                <span class="price__card__info selection">$297</span>
+                <p class="price__card__text">Начитка лекций</p>
+                <p class="price__card__text">Практика</p>
+                <p class="price__card__text">Ответы на вопросы</p>
+                <p class="price__card__text">Тех. поддержка</p>
+                <button class="button button__secondary price__button">купить</button>
+              </div>
+              <!-- /.price__card -->
+              <div class="price__card">
+                <h3 class="price__card__title">Premium</h3>
+                <span class="price__card__info selection">$497</span>
+                <p class="price__card__text">Обучение с куратором</p>
+                <p class="price__card__text">Постоянная возможность связаться с преподователем</p>
+                <p class="price__card__text">Практика</p>
+                <button class="button button__secondary price__button">купить</button>
+              </div>
+              <!-- /.price__card -->
+              <div class="price__card">
+                <h3 class="price__card__title">VIP</h3>
+                <span class="price__card__info selection">$997</span>
+                <p class="price__card__text">Полностью индивидуальное обучение!</p>
+                <p class="price__card__text">Индивидуальная программа</p>
+                <p class="price__card__text">Максимум практики</p>
+                <button class="button button__secondary price__button">купить</button>
+              </div>
+              <!-- /.price__card -->
+            </div>
+            <!-- /.price__cards -->
+          </div>
+          <!-- /.section__heading -->
+      </section>
+      <!-- /.price -->
+      <section class="privilege">
+        <div class="container">
+          <h2 class="section__title privilege__title">Преимущества курса</h2>
+          <h3 class="privilege__cards__title">Интенсив</h3>
+          <div class="privilege__cards">
+            <div class="privilege__card">
+              <img src="img/star.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">Профессионалы</h3>
+              <p class="privilege__card__text">Преподавать курс для Вас будут только опытные трейдеры-практик</p>
+            </div>
+            <!-- /.privilege__card -->
+            <div class="privilege__card">
+              <img src="img/layers.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">Последовательность</h3>
+              <p class="privilege__card__text">Все действия шаг за шагом и до результата вместе с профессионалами своего дела</p>
+            </div>
+            <!-- /.privilege__card -->
+            <div class="privilege__card">
+              <img src="img/lightning.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">100% практики</h3>
+              <p class="privilege__card__text">Так много практики у Вас еще не было. И всё это под руководством профессионалов</p>
+            </div>
+            <!-- /.privilege__card -->
+          </div>
+          <!-- /.privilege__cards -->
+          <h3 class="privilege__cards__title">Результат</h3>
+          <div class="privilege__cards">
+            <div class="privilege__card">
+              <img src="img/face.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">Авторские работы.</h3>
+              <p class="privilege__card__text">Получите авторских торговых роботов алготрейдинга, успешно торгующих с 2013 года</p>
+            </div> 
+            <!-- /.privilege__card -->
+            <div class="privilege__card">
+              <img src="img/safe.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">Банк данных</h3>
+              <p class="privilege__card__text">Получите постоянный доступ к закрытой информации, которой Вы точно не найдёте ни в книгах, ни на других курсах обучения</p>
+            </div>
+            <!-- /.privilege__card -->
+            <div class="privilege__card">
+              <img src="img/diamond.png" alt="#" class="privilege__card__image">
+              <h3 class="privilege__card__title">Личный робот и сертификат</h3>
+              <p class="privilege__card__text">Успешно сдайте все задания курса и получите сертификат о его окончании! И главное — своего прибыльного торгового робота!</p>
+            </div>
+            <!-- /.privilege__card -->
+          </div>
+          <!-- /.privilege__cards -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.privilege -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__info">
+                    <a href="#" class="footer__logo">Алготрейдинг</a>
+                    <div class="footer__nav">
+                        <p class="footer__nav__info">
+                            Обучение алгоритмической торговле
+                        </p>
+                        <div class="footer__nav__block">
+                            <a href="#" class="footer__nav__link">Аналитика</a>
+                            <a href="#" class="footer__nav__link">О проекте</a>
+                            <a href="#" class="footer__nav__link">Контакты</a>
+                        </div>
+                        <div class="footer__nav__block">
+                            <a href="" class="footer__nav__link">Вопросы и ответы</a>
+                            <a href="" class="footer__nav__link">Записаться на курс</a>
+                        </div>
+                    </div>
+                    <!-- /.footer__nav -->
+                </div>
+                <!-- /.footer__info -->
+                <div class="footer__contacts">
+                    <input type="text" placeholder="E-mail Рассылка" class="footer__input">
+                </div>
+                <!-- /.footer__contacts -->
+            </div>
+            <!-- /.footer__block -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
 </body>
 </html>

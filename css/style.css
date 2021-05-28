@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
 .header{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -14,18 +38,23 @@
     margin-right: 10px;
 }
 .logo__text{
-    font-size: 12px;
+    font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     color:black;
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 .logo__header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+}
+
+.hero__block_text{
+    max-width: 300px;
 }
 .nav__menu_text{
     padding-right: 70px;
@@ -43,8 +72,8 @@
 }
 .hero{
     background: url(../img/imgbackground.png) no-repeat center / cover;
-   padding-top: 177px;
-    padding-bottom: 900px;
+    padding-top: 177px;
+    padding-bottom: 500px;
 }
 .header__block{
     display: flex;
@@ -53,7 +82,6 @@
     text-transform: uppercase;
 }
 .hero__tittle{
-    margin-left: 230px;
     margin-top: 261px;
     width: 654px;
     height: 66px;
@@ -75,4 +103,310 @@
     max-width: 324px;
     margin-top: 24px;
     font-size: 14px;
-  }
+}
+.hero__block{
+    margin-top: 67px;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__buttons{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button__one{
+    background-color: #0842B7;
+    color:#ffffff; 
+    border: none; 
+}
+.button_two{
+    border: 1px solid #0056cf;
+    color: #0056cf;
+    background: none;
+}
+.hero__button{
+    padding: 18px 40px;
+    margin-bottom: 12px;
+}
+.hero__block__text{
+    font-size: 20px;
+    max-width: 288px;
+}
+.span__text{
+    color: #06bee1;
+}
+.advantages{
+    margin-top: -300px;
+}
+.advantages__title{
+    background: #ffffff;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 300;
+}
+.advantages__cards{
+    display: flex;  
+    justify-content: space-between;
+    align-items: baseline;
+}
+.advantages__number{
+    font-size: 300px;
+    line-height: 1;
+    font-weight: 100;
+}
+.advantages__percent{
+    font-size: 112px; 
+    color: #06bee1;
+}
+.advantages__card_tittle{
+    max-width: 270px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.advantages__text{
+    font-size: 14px;
+    max-width: 235px;
+    line-height: 1.2;
+}
+
+
+
+
+
+.plan{
+    margin-top: 117px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.plan__title{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.plan__bold{
+    font-weight: 700;
+}
+
+.plan__info{
+    max-width: 350px;
+    margin: auto;
+}
+
+.plan__img{
+    margin-top: 21px;
+    margin-bottom: 31px;
+}
+.plan__part{
+    font-size: 24px
+}
+.plan__video{
+    position: relative;
+    height: 387px;
+    max-width: 945px;
+    background: url("../img/video.png") no-repeat center / cover; 
+    margin: auto;
+    margin-top: 80px;
+}
+
+.plan__video__play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+.plan__block{
+    max-width: 560px;
+    margin: auto;
+}
+
+.plan__block__title{
+    font-size: 20px;
+    margin-top: 77px;
+    margin-bottom: 30px;
+}
+
+.plan__text{
+    margin-bottom: 45px;
+}
+
+.plan__button{
+    display: flex;
+    color: #ffffff;
+    background-color: #0842b7;
+    padding: 18px 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin: auto;
+}
+.training__title{
+    padding-top: 117px;
+    border-top: 1px solid #eaf1f7;
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.training__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 140px;
+    border-bottom: 1px solid #eaf1f7;
+}
+
+.training__card{
+    max-width: 250px;
+}
+
+.training__icon{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.training__card__title{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.price{
+    position: relative;
+    padding-top: 118px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+  
+.price::before{
+    position: absolute;
+    content: '';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 1px;
+    height: 72px;
+    background-color: #eaf1f7;
+}
+
+.price__heading{
+    max-width: 700px;
+    margin: auto;
+}
+.price__info{
+    max-width: 355px;
+}
+.price__cards{
+    max-width: 970px;
+    margin: auto;
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.price__card{
+    min-height: 420px;
+    position: relative;
+    flex-basis: 33%;
+}
+.price__card__title{
+    font-size: 20px;
+}
+.price__card__info{
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 45px;
+} 
+.price__card__text{
+    font-size: 16px;
+    max-width: 230px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.price__button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -85px;
+    width: 170px;
+    background: transparent;
+    border: 1px solid #0056cf;
+    color: #0056cf;
+}
+.price__card__info{
+    color: #06bee1;
+}
+.privilege{
+    position: relative;
+    padding-top: 119px;
+    padding-bottom: 116px;
+    background-color: #eaf1f7;
+    text-align: center;
+}
+.privilege__title{
+    margin-bottom: 60px;
+}
+.privilege__cards{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+  
+.privilege__cards__title{
+    font-size: 24px;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+  
+.privilege__card{
+    width: 30%;
+}
+  
+.privilege__card__image{
+    margin-bottom: 10px;
+}
+  
+.privilegecardtitle{
+    font-size: 16px;
+}
+.privilege__card__text{
+    max-width: 250px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
